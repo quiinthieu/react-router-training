@@ -1,10 +1,12 @@
 import './App.css';
-import BasicRouting from "./BasicRouting";
-import URLParams from "./URLParams";
 import Nesting from "./Nesting";
 
 function App() {
-    return <Nesting/>;
+    return (
+        <div className={"App"}>
+            <Nesting/>
+        </div>
+    );
 }
 
 export default App;
